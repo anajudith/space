@@ -2,7 +2,7 @@ import logo from './logo.png'
 import search from './search.png'
 import styles from './Cabecalho.module.scss'
 
-export default function Cabecalho() {
+const Cabecalho = () =>{
     return (
         <header className={styles.cabecalho}>
             <img src={logo} alt="Logo Space"/>
@@ -13,3 +13,5 @@ export default function Cabecalho() {
         </header>
     )
 }
+
+export default Cabecalho;
